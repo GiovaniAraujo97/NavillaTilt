@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.3s ease-in-out;    
+}
+
+body {
+    background-color: #120024;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card {
+    width: 220px;
+    height: 340px;
+    border-radius: 12px;
+    transform-style: preserve-3d;
+}
+
+.branco {
+    background: linear-gradient(135deg, #09AFFF ,#125575);
+}
+
+.card .product {
+    height: 85%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    transform-style: preserve-3d ;
+}
+
+.number {
+    font-size: 80px;
+    line-height: 80px;
+    font-style: italic;
+    opacity: 0.25;
+    font-weight: 800;
+}
+
+.sneakers {
+    font-size: 35px;
+    line-height: 35px;
+    font-style: italic;
+    opacity: 0.7;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.pre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    color: #120024;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+img {
+    transition: 0.3s ease-in-out;
+}
+
+img:hover {
+    width: 260px;
+    transform: translateZ(36px);
+}
+
+.title {
+    background-color: #120024;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 1px 1px 12px 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    
+}
